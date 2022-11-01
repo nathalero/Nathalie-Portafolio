@@ -3,13 +3,6 @@
     --box-shadow: 0 5px 10 px rgba(0,0,0,0.3);
 }
 
-@media (max-width:476px){
-
-a {
-font-size: 14px;
-}
-
-}
  
 body{
     margin-top: 100px;
@@ -62,13 +55,6 @@ h3{
     text-transform: capitalize;
 }
 
-.homepage-link{
-    color: var(--primary-color);
-    text-align: center;
-    display: block;
-}
-
-
 .email-link{
     text-align: center;
     display: flex;
@@ -81,3 +67,19 @@ h3{
 .email-link:hover{
     text-decoration: underline;
 }
+
+@media (max-width:576px){
+
+    .app-description,.about-me-info, .contact-box{
+        background-color: #F2F2F2;
+        padding: 20px 15px;
+        margin: 20px;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .app-description h2 {
+        font-size: 30px;
+    }
+}
+
